@@ -10,10 +10,19 @@
     <Filter Include="Framework\Interface">
       <UniqueIdentifier>{2dedce08-509a-488b-aa16-4dfb83934b22}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Empty">
+      <UniqueIdentifier>{e078c3da-7f1b-48cc-bd54-0f1f97e9f950}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApplication.cpp">
+      <Filter>Framework\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyApplication.cpp">
+      <Filter>Empty</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -22,6 +31,12 @@
     </ClInclude>
     <ClInclude Include="IRuntimeModule.h">
       <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplication.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApplication.h">
+      <Filter>Framework\Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseApplication.cpp" />
+    <ClCompile Include="EmptyApplication.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseApplication.h" />
+    <ClInclude Include="IApplication.h" />
     <ClInclude Include="Interface.h" />
     <ClInclude Include="IRuntimeModule.h" />
   </ItemGroup>
